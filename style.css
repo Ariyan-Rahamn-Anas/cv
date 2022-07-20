@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 230, 230);
+    font-family: 'Roboto', sans-serif;
+
+}
+h1, h2, h3, h4, h5{
+    color: rgb(4, 145, 145);
+}
+.pflImg{
+    width: 220px;
+    height: 220px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.pflImg:hover{
+    padding: 25px;
+    transition: .7s;
+    background-color: #506295;
+}
+.hdrBio{
+    float: left;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+.hdrBio h1:hover{
+    font-size: 31px;
+    padding: 10px;
+    color: #F6BA00;
+    background-color: black;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    transition: .5s;
+}
+.hdrBio h3:hover{
+    font-size: 22px;
+    padding: 10px;
+    color: #F6BA00;
+    background-color: black;
+    width: 150px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    transition: .5s;
+}
+.hdrContact{
+        float: right;
+        padding-top: 180px;
+        margin-right: 10px;
+}
+.hdrContact a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.hdrContact a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.container{
+    width: 1200px;
+    background-color: rgb(190, 226, 238);
+    margin: 0 auto;
+    /* padding-bottom: 20px; */
+
+}
+.hrr{
+    border: 4px solid black;
+    border-bottom: none;
+    margin-top: 20px;
+}
+.clrDiv{
+    clear: both;
+}
+
+/* header part coplete */
+
+/* main part start */
+
+.personalSec{
+    margin-top: 40px;
+}
+.lftDiv1{
+    float: left;
+    margin-left: 10px;
+    width: 40%;
+}
+.rightDiv1{
+    margin-right: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-left: -20px;
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 30px;
+    
+}
+.hrrr{
+    border: 2px solid black;
+    border-bottom: none;
+    margin-top: 24px;
+}
+
+/* workSec part start */
+
+
+/* education part */
+.lftDiv{
+    width: 38%;
+    float: left;
+    margin-left: 10px;
+}
+.right1Div{
+    width: 35%;
+    float: left;
+    
+}
+.right2Div{
+    width: 25%;
+    float: right;
+    
+}
+
+/* footer part  */
+footer img{
+    height: 35px;
+    width: 35px;
+
+}
+footer a{
+    text-decoration: none;
+    /* margin: 10px; */
+    padding: 20px;
+}
+footer p{
+    padding: 10px;
+}
+footer{
+    color: white;
+    background-color: #506295;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 10px;
+    border-top: 4px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
